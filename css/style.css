@@ -1,0 +1,23 @@
+.header {
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+	font-family: Roboto;
+}
+.form {
+	line-height: 40px;
+	color: red;
+	font-weight: bold;
+}
+.h3 {
+	text-align: center;
+	font-size: 28px;
+	color: red;
+	border: 2px solid black;
+	border-radius: 5px;
+	width: 300px;
+
+}
+.select {
+	width: 100px;
+}

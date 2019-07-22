@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* Style the header */
+header {
+  background-color: #666;
+/*  margin-top: 20px;*/
+  padding: 3px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: right;
+  width: 25%;
+  height: 517px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+/* Style the list inside the menu */
+nav ul {
+
+  padding: 2;
+  color: black;
+}
+nav ul a {
+  line-height: 3;
+  color: black;
+  text-decoration:none;
+}
+nav ul a:hover{
+  color: white;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 75%;
+  background-color: #f1f1f1;
+  height: 517px; /* only for demonstration, should be removed */
+}
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+/*design table 1*/
+.table1 {
+    font-family: sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.table1 tr th{
+    background: #35A9DB;
+    color: #fff;
+    font-weight: normal;
+}
+
+.table1, th, td {
+    padding: 8px 20px;
+    text-align: center;
+     border: 1px solid #999;
+}
+
+.table1 tr:hover {
+    background-color: #f5f5f5;
+}
+
+.table1 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table2 {
+    font-family: sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+.table2 tr th{
+    background: #35A9DB;
+    color: #fff;
+    font-weight: normal;
+}
+
+.table2, th, td {
+    text-align: center;
+
+}
+
+.table2 tr:hover {
+    background-color: #f5f5f5;
+}
+
+.table2 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
